@@ -1,9 +1,9 @@
 #ContactsBook Python Program (GUI) by Ronit!
 
-import tkinter as tk
-from tkinter import simpledialog, messagebox
 import json
 import os
+import tkinter as tk
+from tkinter import simpledialog, messagebox
 
 CONTACTS_FILE = "my_contacts.json"
 
