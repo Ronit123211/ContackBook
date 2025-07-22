@@ -27,14 +27,14 @@ def contact_summary(contact):
 class HumanContactsBook:
     def __init__(self, root):
         self.root = root
-        self.root.title("Sankalp's Contacts Book")
+        self.root.title("Ronit's Contacts Book")
         self.contacts = load_contacts()
         self.create_widgets()
         self.show_contacts(self.contacts)
         self.selected_index = None
 
     def create_widgets(self):
-        greeting = tk.Label(self.root, text="Hey there! it's a Contacts Book from Sankalp!", font=("Arial", 14))
+        greeting = tk.Label(self.root, text="Hey there! it's a Contacts Book from Ronit!", font=("Arial", 14))
         greeting.pack(pady=5)
 
         self.search_frame = tk.Frame(self.root)
