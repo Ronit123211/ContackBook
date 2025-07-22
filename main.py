@@ -88,7 +88,7 @@ def delete_contact(contacts):
         print("That's not a number... try again!")
 
 def main():
-    print("Welcome to Sankalp's Contacts Book!")
+    print("Welcome to Ronit's Contacts Book!")
     contacts = load_contacts()
     while True:
         print("\nPick an option:")
